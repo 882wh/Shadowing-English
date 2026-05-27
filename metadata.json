@@ -1,0 +1,6 @@
+{
+  "name": "Duolingo跟读助手",
+  "description": "参考 Duolingo 极简风格的英语精听、标准、跟读与 AI 智能测评分数系统，支持标注升降调、弱读、连读，并支持实时录音及 AI 多维度（语调、节奏、发音）智能评分反馈。",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
