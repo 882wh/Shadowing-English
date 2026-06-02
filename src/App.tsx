@@ -449,12 +449,21 @@ export default function App() {
             >
               {/* Duolingo style logo and artwork */}
               <div id="art-mascot" className="relative flex justify-center items-center py-4">
-                <span 
-                  className="text-[108px] select-none leading-none inline-block"
-                  style={{ filter: 'grayscale(100%) sepia(100%) hue-rotate(42deg) saturate(450%) brightness(85%)' }}
+                <svg 
+                  viewBox="0 0 100 100" 
+                  className="w-28 h-28 text-[#58CC02]" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  strokeWidth="4.5" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round"
+                  id="outlined-speaking-logo"
                 >
-                  🗣️
-                </span>
+                  {/* Head profile silhouette facing right */}
+                  <path d="M 1 2 C 12 2 24 6 29 18 C 30 21 31 25 31 28 C 32 31 35 34 38 36 L 41 39 L 39 41 C 36 42 35 43 35 45 C 36 46 38 47 37 49 C 36 50 28 50 28 53 C 28 56 34 56 35 58 C 33 59 31 61 31 64 C 32 67 34 69 33 73 C 31 77 23 80 18 80 C 13 80 10 83 10 87 L 10 91 H 1 V 99" />
+                  {/* Sound waves emitting to the right */}
+                  <path d="M 44 54 H 51 L 56 42 L 64 72 L 71 30 L 81 68 L 89 39 L 98 70" />
+                </svg>
               </div>
 
               <div>
